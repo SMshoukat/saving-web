@@ -1,0 +1,42 @@
+/* review ratings */
+.reviews-first-sec{
+    background: #FAC452;
+}
+
+.review-divider {
+    height: inherit !important;
+    border-left: 1px solid black !important;
+}
+
+.rating-divider {
+    border-left: 1px solid #BFBFBF !important;
+    height: inherit !important;
+}
+
+/* text area */
+.review-textarea{
+    resize: none;
+    height: 100px;    
+}
+
+.feedback-card{
+    background: #FFF9EE;
+    box-shadow: 0px 4px 6px -2px #10182808;
+}
+
+.review-button-bg{
+    background: #EA7D57;
+}
+
+/* footer additional div a*/
+.footer-last {
+    background-color: #e65a2e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+  }
