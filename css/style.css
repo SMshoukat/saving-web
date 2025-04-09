@@ -213,13 +213,34 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
     background: #FDEFEB;
 }
 /* first-section */
+/* first-section */
 .first-section{
-    background-image: url(/assets/landing-page/Group\ 19994.svg  );
-    background-size: cover;
+    background: #fbce6f;
+}
+.first-sec-left-bg{
+    background-image: url(/assets/responsive-layout/Group\ 20002.svg);
+    background-size: contain;
     background-repeat: no-repeat;
-    max-width: 1320px;
-    padding: 80px 0px;
+    background-position: center;
+    padding: 100px 0px;
+}
+.first-sec-right-bg{
+    background-image: url(/assets/responsive-layout/Artboard\ 1\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: right;
+}
+
+.first-sec-right-bg img{
+  right: 300px;
+  top: 60px;
+}
+
+@media screen and (max-width: 1240px) {
+    .first-sec-right-bg img{
+        display: none;;
+    }
+    
 }
 
 /* slider */
@@ -279,7 +300,7 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
 /* review-card */
 .review-card {
     background-color: #FFF9EE;
-    width: 343px;
+    /* width: 343px; */
 }
 
 .review-card .badge {
@@ -296,9 +317,9 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
 }
 
 /* subscription card */
-.subscription-card {
+/* .subscription-card {
     width: 368px;
-}
+} */
 
 .subscription-card img {
     width: 100%;
@@ -308,9 +329,7 @@ button.btn.btn-link.d-flex.align-items-center.p-0.custom-design {
 }
 
 /* guide-card */
-.guide-card{
-    width: 343px;
-}
+
 .guide-shodow{
     box-shadow: 0px 10px 16px -1px #10182814;
 }
@@ -468,12 +487,12 @@ carouseil::before, carouseil::after{
 }
 
 .input{
-    width: 384px;
+    min-width: 384px;
 }
 
 /* float slider icons */
 .floating-icon-left{
-    left: -45px !important;
+    left: 15px !important;
     color: black !important;
     font-size: 34px;
     width: 30px !important;
@@ -481,23 +500,26 @@ carouseil::before, carouseil::after{
 
 .floating-icon-right{
     width: 30px !important;
-    right: -45px !important;
+    right: 15px !important;
     color: black !important;
     font-size: 34px;
 }
 
 .floating-icon-previous{
-    right: 15px !important;
+    right: 10px !important;
     color: black !important;
     font-size: 34px;
+    top: -55px !important;
     width: 30px !important;
 }
 
 .floating-icon-next{
     width: 30px !important;
-    left: 15px !important;
+    left: 24px !important;
     color: black !important;
     font-size: 34px;
+    top: -55px !important;
+
 }
 
 .width-stance{

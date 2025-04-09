@@ -16,104 +16,81 @@
 
 <body>
     <header>
-        <nav class="navbar nav-color navbar-expand-lg">
-            <div class="container ps-0">
-                <a class="navbar-brand col-lg-2 me-0" href="./index.html"><img class="web-logo"
-                        src="./assets/landing-page/image_(5)[1] 1.svg" alt="web-logo saving-save"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse col-lg-10" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 sec-nav-sec d-flex justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link four-fifteen color-secondary ms-lg-4" aria-current="page" href="#">Buying
-                                Guide</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link four-fifteen color-secondary" href="#">Saving Guide</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link four-fifteen color-secondary" href="#">Best Time to Buy</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link four-fifteen color-secondary" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Special Discount <img class="dropdown-icon ms-1"
-                                    src="./assets/landing-page/Vector-arr.svg" alt="dropdown-arrow-icon">
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <div class="third-nav-sec ms-lg-2 third-nav-sec d-flex justify-content-between align-items-center">
-                        <div class="search-container">
-                            <img src="./assets/landing-page/Vector.svg" alt="">
-                            <input type="text" class="four-thirteen color-tertiary"
-                                placeholder="Search for coupons and store">
-                        </div>
-
-                        <!-- Language Dropdown -->
-                        <div class="dropdown d-flex ms-3 d-none d-lg-block me-3">
-                            <button class="six-fifteen bg-tranparent" type="button" id="Dropdown"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <span class="flag-icon flag-icon-gb m-0"></span> EN <img class="dropdown-icon ms-1"
-                                    src="./assets/landing-page/Vector-arr.svg" alt="dropdown-arrow-icon">
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="Dropdown">
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"></span>
-                                        English
-                                        <i class="fa fa-check text-success ms-2"></i></a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider" />
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pl"></span>
-                                        Polski</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-cn"></span>
-                                        中文</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-jp"></span>
-                                        日本語</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span>
-                                        Deutsch</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fr"></span>
-                                        Français</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"></span>
-                                        Español</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ru"></span>
-                                        Русский</a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pt"></span>
-                                        Português</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+        <nav class="navbar navbar-expand-lg nav-color navbar-light">
+          <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="./index.html">
+              <img src="./assets/landing-page/image_(5)[1] 1.svg" alt="Saving Save Logo" class="web-logo">
+            </a>
+      
+            <!-- Toggle Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <!-- Navbar Links and Right Side -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+              <div class="row w-100">
+                <!-- Navigation Links -->
+                <div class="col-lg-8">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link four-fifteen color-secondary" href="#">Buying Guide</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link four-fifteen color-secondary" href="#">Saving Guide</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link four-fifteen color-secondary" href="#">Best Time to Buy</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link four-fifteen color-secondary dropdown-toggle" href="#" id="specialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Special Discount
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="specialDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
                 </div>
-
+      
+                <!-- Search & Language Dropdown -->
+                <div class="col-lg-4 ps-0 d-flex align-items-center justify-content-lg-end mt-3 mt-lg-0">
+                  <!-- Search -->
+                  <div class="input-group rounded-5">
+                    <span class="input-group-text bg-white rounded-5 py-0 search-container px-2">
+                      <img src="./assets/landing-page/Vector.svg" alt="Search Icon" style="height: 16px;">
+                      <input type="text" class="form-control four-thirteen border-0 color-tertiary" placeholder="Search for coupons and store" aria-label="Search">
+                    </span>
+                  </div>
+      
+                  <!-- Language Dropdown -->
+                  <div class="dropdown ms-3">
+                    <button class="btn btn-light six-fifteen bg-transparent dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span class="flag-icon flag-icon-gb"></span> EN
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"></span> English <i class="fa fa-check text-success ms-2"></i></a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pl"></span> Polski</a></li>
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-cn"></span> 中文</a></li>
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-jp"></span> 日本語</a></li>
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span> Deutsch</a></li>
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fr"></span> Français</a></li>
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"></span> Español</a></li>
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ru"></span> Русский</a></li>
+                      <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pt"></span> Português</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </nav>
-
-    </header>
+      </header>
 
     <section class="parent-section mt-4 pt-2">
         <div class="container p-0"> <!-- if needed add p-0 -->
@@ -127,7 +104,7 @@
                                     <h3 class="seven-twentyseven">Groome Transportation Reviews</h3>
                                 </div>
 
-                                <div class="reviews-stars d-flex ">
+                                <!-- <div class="reviews-stars d-flex ">
                                     <h3 class="seven-twentyseven m-0 my-auto">0.00</h3>
                                     <div class="rating-divider mx-2"></div>
                                     <div class="d-flex border thirtytwo bg-white rating-yellow rounded-4 px-3 py-2">
@@ -137,7 +114,7 @@
                                         <i class="fas fa-star rating-star"></i>
                                         <i class="fas fa-star rating-star"></i>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                             <div class="mt-4 pe-5 me-2">
                                 <p class="four-eighteen">There are currently no reviews for this A & K Design Company.
@@ -316,20 +293,22 @@
         </div>
     </section>
      
-    <section class="mb-5 mt-5 pt-5 pb-5">
+    <section class="mb-5 pb-5 mt-5">
         <div class="container d-flex rounded-5 subscribe-bg justify-content-center p-0 py-5">
-         <div class="d-flex subscribe w-100 flex-column px-5 my-5 gap-5 align-items-center justify-content-between">
-          <div class="text mx-5 d-flex flex-column align-items-center">
-            <h1 class="seven-fourty">Want exclusive deals delivered to your inbox?</h1>
-            <p class="four-fifteen">Sign up & get early access to the best discounts!</p>
-          </div>
-          <div class="d-flex mt-0 flex-wrap gap-3">
-            <input class="input four-fifteen rounded-5 border-0 py-2 px-4" type="text" placeholder="enter your email">
-            <button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Explore more</button>
-          </div>
-         </div>
+            <div class="d-flex subscribe w-100 flex-column px-5 my-5 gap-5 align-items-center justify-content-between">
+                <div class="text mx-1 d-flex flex-column align-items-center">
+                    <h1 class="seven-fourty">Want exclusive deals delivered to your inbox?</h1>
+                    <p class="four-fifteen">Sign up & get early access to the best discounts!</p>
+                </div>
+                <div class="d-flex mt-3 flex-wrap  gap-3">
+                    <input class="input four-fifteen rounded-5 border-0 py-2 px-4" type="text"
+                        placeholder="enter your email">
+                    <button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Explore
+                        more</button>
+                </div>
+            </div>
         </div>
-       </section>
+    </section>
   
        <footer class="footer pt-5">
         <div class="container p-0">

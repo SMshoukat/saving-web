@@ -4,8 +4,8 @@
 }
 
 .linear-bg{
-    height: inherit;
-    height: 304px;
+    /* height: inherit; */
+    /* height: 304px; */
     background: linear-gradient(89.73deg, #FBCE6F 25.72%, rgba(251, 206, 111, 0) 86.93%);
 }
 
@@ -17,6 +17,8 @@
     border: 1px solid #666666;
     width: 100%;
 }
+
+
 
 /* tip by author */
 .tip{

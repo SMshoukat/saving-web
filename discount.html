@@ -13,149 +13,110 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <nav class="navbar nav-color navbar-expand-lg">
-            <div class="container p-0">
-               <a class="navbar-brand col-lg-2 me-0" href="./index.html"><img class="web-logo" src="./assets/landing-page/image_(5)[1] 1.svg" alt="web-logo saving-save"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse col-lg-10" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 sec-nav-sec d-flex justify-content-center">
-                  <li class="nav-item">
-                    <a class="nav-link four-fifteen color-secondary ms-lg-4" aria-current="page" href="#">Buying Guide</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link four-fifteen color-secondary" href="#">Saving Guide</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link four-fifteen color-secondary" href="#">Best Time to Buy</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link four-fifteen color-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                       Special Discount <img class="dropdown-icon ms-1" src="./assets/landing-page/Vector-arr.svg" alt="dropdown-arrow-icon">
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>                      
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                 <div class="third-nav-sec ms-lg-2 third-nav-sec d-flex justify-content-between align-items-center">  
-                  <div class="search-container">
-                    <img src="./assets/landing-page/Vector.svg" alt="">
-                    <input type="text" class="four-thirteen color-tertiary" placeholder="Search for coupons and store">
-                  </div>
-            
-                  <!-- Language Dropdown -->
-                  <div class="dropdown d-flex ms-3 d-none d-lg-block me-3">
-                      <button class="six-fifteen bg-tranparent" type="button" id="Dropdown"
-                          data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="flag-icon flag-icon-gb m-0"></span> EN  <img class="dropdown-icon ms-1" src="./assets/landing-page/Vector-arr.svg" alt="dropdown-arrow-icon">
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="Dropdown">
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"></span> English
-                                  <i class="fa fa-check text-success ms-2"></i></a>
-                          </li>
-                          <li>
-                              <hr class="dropdown-divider" />
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pl"></span>
-                                  Polski</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-cn"></span> 中文</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-jp"></span> 日本語</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span>
-                                  Deutsch</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fr"></span>
-                                  Français</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"></span>
-                                  Español</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ru"></span>
-                                  Русский</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pt"></span>
-                                  Português</a>
-                          </li>
-                      </ul>
-                  </div> 
-                  </div>
-              </div>                
-              
+  <header>
+    <nav class="navbar navbar-expand-lg nav-color navbar-light">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/landing-page/image_(5)[1] 1.svg" alt="Saving Save Logo" class="web-logo">
+        </a>
+  
+        <!-- Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Navbar Links and Right Side -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <div class="row w-100">
+            <!-- Navigation Links -->
+            <div class="col-lg-8">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link four-fifteen color-secondary" href="#">Buying Guide</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link four-fifteen color-secondary" href="#">Saving Guide</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link four-fifteen color-secondary" href="#">Best Time to Buy</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link four-fifteen color-secondary dropdown-toggle" href="#" id="specialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Special Discount
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="specialDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-          </nav>
-        
-     </header>
+  
+            <!-- Search & Language Dropdown -->
+            <div class="col-lg-4 ps-0 d-flex align-items-center justify-content-lg-end mt-3 mt-lg-0">
+              <!-- Search -->
+              <div class="input-group rounded-5">
+                <span class="input-group-text bg-white rounded-5 py-0 search-container px-2">
+                  <img src="./assets/landing-page/Vector.svg" alt="Search Icon" style="height: 16px;">
+                  <input type="text" class="form-control four-thirteen border-0 color-tertiary" placeholder="Search for coupons and store" aria-label="Search">
+                </span>
+              </div>
+  
+              <!-- Language Dropdown -->
+              <div class="dropdown ms-3">
+                <button class="btn btn-light six-fifteen bg-transparent dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="flag-icon flag-icon-gb"></span> EN
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"></span> English <i class="fa fa-check text-success ms-2"></i></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pl"></span> Polski</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-cn"></span> 中文</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-jp"></span> 日本語</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span> Deutsch</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fr"></span> Français</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"></span> Español</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ru"></span> Русский</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pt"></span> Português</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
     <section class="parent-section mt-4 pt-2">
-        <div class="container p-0"> <!-- if needed add p-0 -->
+        <div class="container"> <!-- if needed add p-0 -->
         <div class="row">
                 <div class="col-lg-9">
                     <section class="first-coupon-section rounded-5">
-                      <div class="linear-bg rounded-5 d-flex flex-column justify-content-center px-4 pe-5">
+                      <div class="linear-bg py-4 rounded-5 d-flex flex-column justify-content-center px-4 pe-5">
                           <div class="row mb-4">
                             <h1 class="seven-fourty text start col-8">Groome Transportation Senior Discounts</h1>
                             <p class="four-thirteen col-4 text-end">Last Updated: March 11, 2025</p>
                           </div>
                           <div class="row d-flex align-items-center">
-                            <div class="col-2 d-flex align-items-center">
+                            <div class="col-xl-2 col-lg-12 d-flex align-items-center">
                                 <h1 class="seven-sixty line-height m-0">70% <span class="seven-sixtyfour">OFF</span></h1>
-                                <!-- <h1 class="seven-sixty">70%</h1> -->  
+                          
                             </div>
-                            <div class="col-7">
+                            <div class="col-xl-7 col-lg-6">
                                 <div class="mt-4">
                                     <div class="bottom-line-2"></div>
                                     <p class="six-fifteen m-0">Save Big with the Groome Transportation Senior Discount!</p>                                
                                 </div>
                             </div>
-                            <div class="col-3 text-end"><button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Claim Now</button></div>
+                            <div class="col-xl-3 col-lg-6 text-end"><button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Claim Now</button></div>
                           </div>
                       </div>
                     </section>    
 
-                    <section>
-                        <div class="d-flex mt-5 pt-4 mb-4 pb-1">
-                            <h1 class="seven-fourty m-0 text-nowrap">How To Claim?</h1>
-                            <div class="bottom-line ms-3 mb-2"></div>
-                        </div>
-                        <div class="d-flex mt-1">
-                            <h3 class="five-seventeen"><span class="four-twentytwo">»</span> Confirm Your Eligibility:<span class="four-fifteen ms-2">The senior discount is available for passengers aged 65 or older.</span></h3>
-                        </div>
-                        <div class="d-flex mt-1">
-                            <h3 class="five-seventeen"><span class="four-twentytwo">»</span> Book Your Ride:<span class="four-fifteen ms-2">Visit the Groome Transportation website or contact the local Fort Collins or Loveland service desk to make your reservation.</span></h3>
-                        </div>
-                        <div class="d-flex mt-1">
-                            <h3 class="five-seventeen"><span class="four-twentytwo">»</span> Mention the Discount:<span class="four-fifteen ms-2">Ensure you mention the senior discount while booking your ride.</span></h3>
-                        </div>
-                        <div class="d-flex mt-1">
-                            <h3 class="five-seventeen"><span class="four-twentytwo">»</span> Provide Proof of Age:<span class="four-fifteen ms-2">Be prepared to present valid identification, such as a driver's license or ID card, at the time of travel to confirm eligibility.</span></h3>
-                        </div>
-                        <h2 class="seven-twentyseven my-4">Important Details:</h2>
-                        <div class="d-flex mt-1">
-                            <h3 class="five-seventeen"><span class="four-twentytwo">»</span> Discount Availability:<span class="four-fifteen ms-2">For seniors aged 65 and older.</span></h3>
-                        </div>
-                        <div class="d-flex mt-1">
-                            <h3 class="five-seventeen"><span class="four-twentytwo">»</span> Locations:<span class="four-fifteen ms-2">For seniors aged 65 and older.</span></h3>
-                        </div>
-                        <div class="d-flex mt-1">
-                            <h3 class="five-seventeen"><span class="four-twentytwo">»</span> Booking Options:<span class="four-fifteen ms-2">For seniors aged 65 and older.</span></h3>
-                        </div>
-                    </section>
+
 
                     <section class="tip my-4 rounded-4">
                       <div class="d-flex align-items-center p-4">
@@ -167,7 +128,7 @@
                     <section>
                         <div class="pt-4 mb-4">
                             <div class="d-flex">
-                                <h1 class="seven-fourty m-0 text-nowrap">Groome Transportation </h1>
+                                <h1 class="seven-fourty m-0 ">Groome Transportation </h1>
                                 <div class="bottom-line ms-3 mb-2"></div>
                             </div>
                             <p class="four-eighteen">Student Discount</p>
@@ -192,7 +153,7 @@
                                 <p class="mt-2 mb-0"><a class="four-fifteen color-secondary" href="">View Detail</a></p>
                             </div>
                             <div class="col-lg-2 d-flex align-items-end justify-content-center">
-                                <button class="mb-3 ms-2 six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5 text-nowrap">Reveal Code</button>
+                                <button class="mb-3 ms-2 six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5 ">Reveal Code</button>
                             </div>
                         </div>
                         <div class="d-flex mt-4 pt-2 justify-content-center">
@@ -202,7 +163,7 @@
 
                     <section>
                         <div class="d-flex mt-5 pt-4 mb-4 pb-1">
-                            <h1 class="seven-fourty m-0 text-nowrap">Other Ways to<span class="four-fourty"> Save Money</span></h1>
+                            <h1 class="seven-fourty m-0 ">Other Ways to<span class="four-fourty"> Save Money</span></h1>
                             <div class="bottom-line ms-3 mb-2"></div>
                         </div>
                         <h3 class="seven-twentyseven mt-2">Shared Ride Option</h3>
@@ -219,10 +180,11 @@
 
                     <section>
                         <div class="d-flex mt-5 pt-4 pb-5">
-                            <h1 class="seven-fourty m-0 text-nowrap">Related Discount</h1>
+                            <h1 class="seven-fourty m-0 ">Related Discount</h1>
                             <div class="bottom-line ms-3 mb-2"></div>
                         </div>
-                        <div class="d-flex gap-4">
+                        <div class="d-flex justify-content-center row">
+                          <div class="col-sm-4 col-md-4">
                             <div class="guide-card guide-shodow px-4 pt-4 rounded-4">
                                 <img class="rounded-4" src="./assets/discount-page/image 34.svg" alt="">
                                 <div class="card-body mt-4">
@@ -235,6 +197,8 @@
                                   </div>
                                 </div>
                               </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4">
                             <div class="guide-card guide-shodow px-4 pt-4 pb-3 rounded-4">
                                 <img class="rounded-4" src="./assets/discount-page/2149153258 1.svg" alt="">
                                 <div class="card-body mt-4">
@@ -247,6 +211,8 @@
                                   </div>
                                 </div>
                               </div>
+                          </div>
+                          <div class="col-sm-4 col-md-4">
                             <div class="guide-card guide-shodow px-4 pt-4 pb-3 rounded-4">
                                 <img class="rounded-4" src="./assets/discount-page/image 26.svg" alt="">
                                 <div class="card-body mt-4">
@@ -259,6 +225,7 @@
                                   </div>
                                 </div>
                               </div>
+                          </div>
                         </div>
                         <div class="d-flex mt-4 pt-2 justify-content-center">
                             <button class="load-more border-0 py-2 px-4 rounded-5 five-seventeen">See More</button>
@@ -279,7 +246,7 @@
                         </div>
                         <p class="mt-1 mb-0"><a class="four-fifteen color-octa" href="">Review This Product</a></p>
                         <div class="d-flex mt-3 pt-2">
-                             <h1 class="five-seventeen m-0 text-nowrap">Reviews</h1>
+                             <h1 class="five-seventeen m-0 ">Reviews</h1>
                              <div class="bottom-line ms-3 mb-1"></div>
                         </div>
                         <p class="four-fifteen mb-0 mt-3">Coupons & Promo Code</p> 
@@ -287,7 +254,7 @@
                         <img class="avatar-img p-1 mt-5" src="./assets/reviews/Photo by George Milton.svg" alt="">
                         <div>
                           <div class="d-flex mt-3 pt-2">
-                            <h1 class="five-seventeen m-0 text-nowrap">Stacy Ryan</h1>
+                            <h1 class="five-seventeen m-0 ">Stacy Ryan</h1>
                             <div class="bottom-line ms-3 mb-1"></div>
                           </div>
                           <p class="four-thirteen color-octa">Saving Expert</p>
@@ -296,7 +263,7 @@
                         <button class="load-more mt-2 mb-3 border-0 py-2 px-4 rounded-5 five-seventeen">See Bio</button>
                         <div>
                           <div class="d-flex mt-3 pt-2">
-                            <h1 class="five-seventeen m-0 text-nowrap">About</h1>
+                            <h1 class="five-seventeen m-0 ">About</h1>
                             <div class="bottom-line ms-3 mb-1"></div>
                           </div>
                           <p class="four-thirteen color-octa">Groome Transportation</p>
@@ -384,7 +351,7 @@
  <section class="mb-5 mt-4 pb-5">
   <div class="container d-flex rounded-5 subscribe-bg justify-content-center p-0 py-5">
    <div class="d-flex subscribe w-100 flex-column px-5 mb-5 mt-5 gap-5 align-items-center justify-content-between">
-    <div class="text mx-5 d-flex  flex-column align-items-center">
+    <div class="text mx-1 d-flex  flex-column align-items-center">
       <h1 class="seven-fourty">Want exclusive deals delivered to your inbox?</h1>
       <p class="four-fifteen">Sign up & get early access to the best discounts!</p>
     </div>
@@ -397,7 +364,7 @@
  </section>
 
  <footer class="footer pt-5">
-  <div class="container p-0">
+  <div class="container">
   <div class="row">
     <div class="col-lg-4 col-m-4 col-sm-12">
       <img class="footer-logo mb-3" src="./assets/landing-page/image_(5)[1] 1.svg" alt="">
@@ -416,32 +383,46 @@
     <h2 class="six-fifteen mb-3">Discount Guides</h2>
     <ul class="p-0 list-style-none">
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Student</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Teacher</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Military</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Senior</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Healthcare</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
           <i class="fas me-2 fa-chevron-right"></i>
           <span class="four-fifteen">Nurse</span>
+          </a>
       </li>
       <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
           <i class="fas me-2 fa-chevron-right"></i>
           <span class="four-fifteen">Birthday</span>
+          </a>
       </li>
     </ul>
     </div>
@@ -449,24 +430,34 @@
     <h2 class="six-fifteen mb-3">Quick Links</h2>
     <ul class="p-0 list-style-none">
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">About Us</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Careers</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Media Kit</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Contact Us</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">FAQs</span>
+            </a>
         </li>
     </ul>
     </div>
@@ -474,26 +465,34 @@
     <h2 class="six-fifteen mb-3">Coupon & Savings</h2>
     <ul class="p-0 list-style-none">
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Submit Coupons</span>
-        </li>
-        <li class="mb-2 d-flex align-items-center">
-            <i class="fas me-2 fa-chevron-right"></i>
-            <span class="four-fifteen">Coupon Categories</span>
-        </li>
-        <li class="mb-2 d-flex align-items-center">
-            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
-              <i class="fas me-2 fa-chevron-right"></i>
-            <span class="four-fifteen">All Stores</span>  
             </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
-            <span class="four-fifteen">Get Paid to Write</span>
+            <span class="four-fifteen">Coupon Categories</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+          <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
+              <i class="fas me-2 fa-chevron-right"></i>
+            <span class="four-fifteen">All Stores</span>
+          </a>  
+        </li>
+        <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
+            <i class="fas me-2 fa-chevron-right"></i>
+            <span class="four-fifteen">Get Paid to Write</span>
+            </a>
+        </li>
+        <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Community Guidelines</span>
+            </a>
         </li>
     </ul>
     </div>
@@ -501,16 +500,22 @@
     <h2 class="six-fifteen mb-3">Legal & Policies</h2>
     <ul class="p-0 list-style-none">
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Privacy Policy</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Terms & Conditions</span>
+            </a>
         </li>
         <li class="mb-2 d-flex align-items-center">
+            <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
             <i class="fas me-2 fa-chevron-right"></i>
             <span class="four-fifteen">Sitemap</span>
+            </a>
         </li>
     </ul>
     </div>

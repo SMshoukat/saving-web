@@ -1,483 +1,544 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saving Save</title>
-    <link rel="stylesheet" href="./css/style.css">    
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body>
-     <header>
-        <nav class="navbar nav-color navbar-expand-lg">
-            <div class="container ps-0">
-               <a class="navbar-brand col-lg-2 me-0" href="./index.html"><img class="web-logo" src="./assets/landing-page/image_(5)[1] 1.svg" alt="web-logo saving-save"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse col-lg-10" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 sec-nav-sec d-flex justify-content-center">
-                  <li class="nav-item">
-                    <a class="nav-link four-fifteen color-secondary ms-lg-4" aria-current="page" href="#">Buying Guide</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link four-fifteen color-secondary" href="#">Saving Guide</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link four-fifteen color-secondary" href="#">Best Time to Buy</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link four-fifteen color-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                       Special Discount <img class="dropdown-icon ms-1" src="./assets/landing-page/Vector-arr.svg" alt="dropdown-arrow-icon">
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>                      
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                 <div class="third-nav-sec ms-lg-2 third-nav-sec d-flex justify-content-between align-items-center">  
-                  <div class="search-container">
-                    <img src="./assets/landing-page/Vector.svg" alt="">
-                    <input type="text" class="four-thirteen color-tertiary" placeholder="Search for coupons and store">
-                  </div>
-            
-                  <!-- Language Dropdown -->
-                  <div class="dropdown d-flex ms-3 d-none d-lg-block me-3">
-                      <button class="six-fifteen bg-tranparent" type="button" id="Dropdown"
-                          data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="flag-icon flag-icon-gb m-0"></span> EN  <img class="dropdown-icon ms-1" src="./assets/landing-page/Vector-arr.svg" alt="dropdown-arrow-icon">
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="Dropdown">
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"></span> English
-                                  <i class="fa fa-check text-success ms-2"></i></a>
-                          </li>
-                          <li>
-                              <hr class="dropdown-divider" />
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pl"></span>
-                                  Polski</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-cn"></span> 中文</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-jp"></span> 日本語</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span>
-                                  Deutsch</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fr"></span>
-                                  Français</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"></span>
-                                  Español</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ru"></span>
-                                  Русский</a>
-                          </li>
-                          <li>
-                              <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pt"></span>
-                                  Português</a>
-                          </li>
-                      </ul>
-                  </div> 
-                  </div>
-              </div>                
-              
-            </div>
-          </nav>
-        
-     </header>
 
-     <section class="d-flex mb-5 justify-content-center align-items-center">
-      <div class="first-section container-fluid">
-        <div class="container p-0">
-          <h1 class="six-fiftynine">Save More, Spend Less!</h1>
-          <p class="five-seventeen color-primary mb-2">Daily Deals & Verified Coupons!" Subheadline:</p>
-          <p class="four-fifteen color-tetra mb-4">Find the best discount codes, exclusive offers, and money-saving tips – all in one place!</p>
-          <div class="button-div d-flex gap-3">
-            <button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Browse Deals</button><button class="six-fifteen bg-transparent border-1 py-2 px-4 color-penta border-color-btn rounded-5">Subscribe & Save</button>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saving Save</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg nav-color navbar-light">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="./index.html">
+          <img src="./assets/landing-page/image_(5)[1] 1.svg" alt="Saving Save Logo" class="web-logo">
+        </a>
+  
+        <!-- Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Navbar Links and Right Side -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <div class="row w-100">
+            <!-- Navigation Links -->
+            <div class="col-lg-8">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link four-fifteen color-secondary" href="#">Buying Guide</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link four-fifteen color-secondary" href="#">Saving Guide</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link four-fifteen color-secondary" href="#">Best Time to Buy</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link four-fifteen color-secondary dropdown-toggle" href="#" id="specialDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Special Discount
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="specialDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+  
+            <!-- Search & Language Dropdown -->
+            <div class="col-lg-4 ps-0 d-flex align-items-center justify-content-lg-end mt-3 mt-lg-0">
+              <!-- Search -->
+              <div class="input-group rounded-5">
+                <span class="input-group-text bg-white rounded-5 py-0 search-container px-2">
+                  <img src="./assets/landing-page/Vector.svg" alt="Search Icon" style="height: 16px;">
+                  <input type="text" class="form-control four-thirteen border-0 color-tertiary" placeholder="Search for coupons and store" aria-label="Search">
+                </span>
+              </div>
+  
+              <!-- Language Dropdown -->
+              <div class="dropdown ms-3">
+                <button class="btn btn-light six-fifteen bg-transparent dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="flag-icon flag-icon-gb"></span> EN
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"></span> English <i class="fa fa-check text-success ms-2"></i></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pl"></span> Polski</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-cn"></span> 中文</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-jp"></span> 日本語</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-de"></span> Deutsch</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-fr"></span> Français</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-es"></span> Español</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-ru"></span> Русский</a></li>
+                  <li><a class="dropdown-item" href="#"><span class="flag-icon flag-icon-pt"></span> Português</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-     </section>
+    </nav>
+  </header>
 
-     <section class="pt-4 mb-4">
-      <div class="container p-0">
-       <div class="d-flex position-relative"><h1 class="seven-fourty d-flex mb-0">Special <span class="ms-2 five-fourty">Discounts</span> </h1> <img class="title-frame-secondary position-absolute" src="./assets/landing-page/Frame.svg" alt=""> <div class="bottom-line ms-3 mb-3"></div></div>
-        <p class="mt-2 four-eighteen">Find exclusive savings based on who you are!</p>
+  <section class="mb-5">
+    <div class="first-section d-flex position-relative">
+      
+      <!-- Left Content -->
+      <div class="container first-sec-left-bg">
+        <h1 class="six-fiftynine">Save More, Spend Less!</h1>
+        <p class="five-seventeen color-primary mb-2">
+          Daily Deals & Verified Coupons!
+        </p>
+        <p class="four-fifteen color-tetra mb-4">
+          Find the best discount codes, exclusive offers, and money-saving tips – all in one place!
+        </p>
+        <div class="button-div d-flex gap-3">
+          <button class="six-fifteen graident-background-btn color-hexa border-0 py-2 px-4 rounded-5">
+            Browse Deals
+          </button>
+          <button class="six-fifteen bg-transparent border-1 color-penta border-color-btn py-2 px-4 rounded-5">
+            Subscribe & Save
+          </button>
+        </div>
       </div>
-     </section>
-
-    <section class="d-flex justify-content-center">
-      <div class="mb-5 pb-5 width-stance container-fluid position-relative">
-        <button class="carousel-control-prev position-absolute floating-icon-next" onclick="moveSlide(-1)" type="button">
-          <span class="fas fa-chevron-left"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-        <button class="carousel-control-next position-absolute floating-icon-previous" onclick="moveSlide(1)" type="button">
-          <span class="fas fa-chevron-right"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-       <div class="container p-0 slider-container">
-         <!-- <button class="slider-button prev" onclick="moveSlide(-1)"></button>
-         <button class="slider-button next" onclick="moveSlide(1)"></button> -->
-         <div class="slider-wrapper" id="slider">
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039.svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Student Discounts</h2>
-                  <p class="four-twelve mb-0">Save on books, tech, and essentials.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039 (3).svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Teacher Discounts</h2>
-                  <p class="four-twelve mb-0">deals on classroom and tech supplies.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039 (1).svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Military Discounts</h2>
-                  <p class="four-twelve mb-0">offers for active duty and veterans.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039 (2).svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Nurse Discounts</h2>
-                  <p class="four-twelve mb-0">Savings on medical essentials & more.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039.svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Student Discounts</h2>
-                  <p class="four-twelve mb-0">Save on books, tech, and essentials.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039 (3).svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Teacher Discounts</h2>
-                  <p class="four-twelve mb-0">deals on classroom and tech supplies.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039 (1).svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Military Discounts</h2>
-                  <p class="four-twelve mb-0">offers for active duty and veterans.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039 (2).svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Nurse Discounts</h2>
-                  <p class="four-twelve mb-0">Savings on medical essentials & more.</p>
-                 </div>
-               </div>
-             </div>
-             <div class="slider-item">
-               <div class="discount-card">
-                 <img src="./assets/landing-page/Frame 427319039.svg" alt="">
-                 <div class="card-content p-3">
-                  <h2 class="five-seventeen mb-1">Student Discounts</h2>
-                  <p class="four-twelve mb-0">Save on books, tech, and essentials.</p>
-                 </div>
-               </div>
-             </div>
-         </div>
-     </div>
+  
+      <!-- Right Image -->
+      <div class="d-none d-lg-block position-absolute container-fluid z-1 first-sec-right-bg h-100">
+        <img class="position-absolute" src="./assets/responsive-layout/Group 19994.svg" alt="Decorative Graphic">
+      </div>
+  
     </div>
-    </section>
+  </section>
 
-     <section class="mb-5">
-      <div class="container p-0">
-       <div class="d-flex position-relative"><h1 class="seven-fourty mb-0">Reviews </h1> <img class="title-frame position-absolute" src="./assets/landing-page/Frame.svg" alt=""> <div class="bottom-line ms-3 mb-3"></div></div>
+
+
+  <section class="d-flex justify-content-center">
+    <div class="container">
+      <div class="pt-4 mb-4">    
+        <div class="d-flex position-relative">
+          <h1 class="seven-fourty d-flex mb-0">Special <span class="ms-2 five-fourty">Discounts</span> </h1> <img
+            class="title-frame-secondary position-absolute" src="./assets/landing-page/Frame.svg" alt="">
+          <div class="bottom-line ms-3 mb-3"></div>
+        </div>
+        <p class="mt-2 four-eighteen">Find exclusive savings based on who you are!</p>
+    </div>
+      <div class="row">
+    <div class="mb-5 pb-5 width-stance container-fluid position-relative">
+      <button class="carousel-control-prev position-absolute floating-icon-next" onclick="moveSlide(-1)" type="button">
+        <span class="fas fa-chevron-left"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <button class="carousel-control-next position-absolute floating-icon-previous" onclick="moveSlide(1)"
+        type="button">
+        <span class="fas fa-chevron-right"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <div class="container slider-container">
+        <!-- <button class="slider-button prev" onclick="moveSlide(-1)"></button>
+         <button class="slider-button next" onclick="moveSlide(1)"></button> -->
+        <div class="slider-wrapper" id="slider">
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039.svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Student Discounts</h2>
+                <p class="four-twelve mb-0">Save on books, tech, and essentials.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039 (3).svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Teacher Discounts</h2>
+                <p class="four-twelve mb-0">deals on classroom and tech supplies.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039 (1).svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Military Discounts</h2>
+                <p class="four-twelve mb-0">offers for active duty and veterans.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039 (2).svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Nurse Discounts</h2>
+                <p class="four-twelve mb-0">Savings on medical essentials & more.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039.svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Student Discounts</h2>
+                <p class="four-twelve mb-0">Save on books, tech, and essentials.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039 (3).svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Teacher Discounts</h2>
+                <p class="four-twelve mb-0">deals on classroom and tech supplies.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039 (1).svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Military Discounts</h2>
+                <p class="four-twelve mb-0">offers for active duty and veterans.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039 (2).svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Nurse Discounts</h2>
+                <p class="four-twelve mb-0">Savings on medical essentials & more.</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-item">
+            <div class="discount-card">
+              <img src="./assets/landing-page/Frame 427319039.svg" alt="">
+              <div class="card-content p-3">
+                <h2 class="five-seventeen mb-1">Student Discounts</h2>
+                <p class="four-twelve mb-0">Save on books, tech, and essentials.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+
+  <section class="mb-5 pb-4">
+    <div class="container ">
+      <div class="mb-5">
+        <div class="d-flex position-relative">
+          <h1 class="seven-fourty mb-0">Reviews </h1> <img class="title-frame position-absolute"
+            src="./assets/landing-page/Frame.svg" alt="">
+          <div class="bottom-line ms-3 mb-3"></div>
+        </div>
         <p class="four-eighteen">Verified reviews from happy savers!</p>
       </div>
-     </section>
 
-     <section class="mb-5 pb-4">
-      <div class="container p-0 d-flex justify-content-between flex-wrap">
-<a href="./reviews.html" class="text-dark text-decoration-none">
-  <div class="review-card p-4 rounded-5">
-    <div class="position-relative">
-     <img class="rounded-4 " alt="A woman holding shopping bags and a credit card in a mall" src="./assets/landing-page/image.svg"/>
-     <span class="badge position-absolute six-thirteen rounded-5 p-2">
-      By CouponMaster
-     </span>
-    </div>
-    <div>
-     <h2 class="six-twentytwo mt-3">
-      Coupons for Maximum Discounts
-     </h2>
-     <div class="four-fifteen d-flex justify-content-between align-items-center mt-4">
-      <span>
-       • 42.3K Views
-      </span>
-      <span>
-       • 18 Comments
-      </span>
-     </div>
-    </div>
-</div>
-</a>
-<a href="./reviews.html" class="text-dark text-decoration-none">
-  <div class="review-card p-4 rounded-5">
-    <div class="position-relative">
-     <img class="rounded-4 " alt="A woman holding shopping bags and a credit card in a mall" src="./assets/landing-page/image.svg"/>
-     <span class="badge position-absolute six-thirteen rounded-5 p-2">
-      By CouponMaster
-     </span>
-    </div>
-    <div>
-     <h2 class="six-twentytwo mt-3">
-      Coupons for Maximum Discounts
-     </h2>
-     <div class="four-fifteen d-flex justify-content-between align-items-center mt-4">
-      <span>
-       • 42.3K Views
-      </span>
-      <span>
-       • 18 Comments
-      </span>
-     </div>
-    </div>
-</div>
-</a>
-<a href="./reviews.html" class="text-dark text-decoration-none">
-  <div class="review-card p-4 rounded-5">
-    <div class="position-relative">
-     <img class="rounded-4 " alt="A woman holding shopping bags and a credit card in a mall" src="./assets/landing-page/image.svg"/>
-     <span class="badge position-absolute six-thirteen rounded-5 p-2">
-      By CouponMaster
-     </span>
-    </div>
-    <div>
-     <h2 class="six-twentytwo mt-3">
-      Coupons for Maximum Discounts
-     </h2>
-     <div class="four-fifteen d-flex justify-content-between align-items-center mt-4">
-      <span>
-       • 42.3K Views
-      </span>
-      <span>
-       • 18 Comments
-      </span>
-     </div>
-    </div>
-</div>
-</a>
-
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <a href="./reviews.html" class="text-dark text-decoration-none">
+            <div class="review-card p-4 rounded-5">
+              <div class="position-relative">
+                <img class="rounded-4 " alt="A woman holding shopping bags and a credit card in a mall"
+                  src="./assets/landing-page/image.svg" />
+                <span class="badge position-absolute six-thirteen rounded-5 p-2">
+                  By CouponMaster
+                </span>
+              </div>
+              <div>
+                <h2 class="six-twentytwo mt-3">
+                  Coupons for Maximum Discounts
+                </h2>
+                <div class="four-fifteen d-flex justify-content-between align-items-center mt-4">
+                  <span>
+                    • 42.3K Views
+                  </span>
+                  <span>
+                    • 18 Comments
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a href="./reviews.html" class="text-dark text-decoration-none">
+            <div class="review-card p-4 rounded-5">
+              <div class="position-relative">
+                <img class="rounded-4 " alt="A woman holding shopping bags and a credit card in a mall"
+                  src="./assets/landing-page/image.svg" />
+                <span class="badge position-absolute six-thirteen rounded-5 p-2">
+                  By CouponMaster
+                </span>
+              </div>
+              <div>
+                <h2 class="six-twentytwo mt-3">
+                  Coupons for Maximum Discounts
+                </h2>
+                <div class="four-fifteen d-flex justify-content-between align-items-center mt-4">
+                  <span>
+                    • 42.3K Views
+                  </span>
+                  <span>
+                    • 18 Comments
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <a href="./reviews.html" class="text-dark text-decoration-none">
+            <div class="review-card p-4 rounded-5">
+              <div class="position-relative">
+                <img class="rounded-4 " alt="A woman holding shopping bags and a credit card in a mall"
+                  src="./assets/landing-page/image.svg" />
+                <span class="badge position-absolute six-thirteen rounded-5 p-2">
+                  By CouponMaster
+                </span>
+              </div>
+              <div>
+                <h2 class="six-twentytwo mt-3">
+                  Coupons for Maximum Discounts
+                </h2>
+                <div class="four-fifteen d-flex justify-content-between align-items-center mt-4">
+                  <span>
+                    • 42.3K Views
+                  </span>
+                  <span>
+                    • 18 Comments
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
-     </section>
 
-     <section class="mb-4">
-      <div class="container p-0">
-       <div class="d-flex position-relative"><h1 class="seven-fourty d-flex mb-0">Subscription <span class="ms-2 five-fourty">Boxes</span> </h1> <img class="title-frame-secondary position-absolute" src="./assets/landing-page/Frame.svg" alt=""> <div class="bottom-line ms-3 mb-3"></div></div>
+
+    </div>
+  </section>
+
+
+  <section class="mb-5">
+    <div class="container">
+      <div class="mb-4">
+        <div class="d-flex position-relative">
+          <h1 class="seven-fourty d-flex mb-0">Subscription <span class="ms-2 five-fourty">Boxes</span> </h1> <img
+            class="title-frame-secondary position-absolute" src="./assets/landing-page/Frame.svg" alt="">
+          <div class="bottom-line ms-3 mb-3"></div>
+        </div>
         <p class="mt-2 four-eighteen">Discover curated subscription boxes to enhance your lifestyle</p>
       </div>
-     </section>
-
-     <section class="mb-5">
-      <div class="container p-0 d-flex justify-content-between flex-wrap">
+      <div class="row">
+        <div class="col-sm-12 col-lg-4 ">
           <div class="subscription-card">
             <img src="./assets/landing-page/2148708051.svg" alt="">
             <div class="card-content p-3">
-             <h2 class="five-seventeen">Treat Your Skin With 9 Best Self-Care Subscription Boxes</h2>
+              <h2 class="five-seventeen">Treat Your Skin With 9 Best Self-Care Subscription Boxes</h2>
             </div>
           </div>
-      
+        </div>
+        <div class="col-sm-12 col-lg-4">
           <div class="subscription-card">
             <img src="./assets/landing-page/Frame 427319039 (4).svg" alt="">
             <div class="card-content p-3">
-             <h2 class="five-seventeen">5 Best Lipstick Subscription Boxes For The Perfect Lips</h2>
+              <h2 class="five-seventeen">5 Best Lipstick Subscription Boxes For The Perfect Lips</h2>
             </div>
           </div>
-        
+        </div>
+        <div class="col-sm-12 col-lg-4 ">
           <div class="subscription-card">
             <img src="./assets/landing-page/2150698891 1.svg" alt="">
             <div class="card-content p-3">
-             <h2 class="five-seventeen">10 Best Coffee Subscription Boxes (UK)</h2>
+              <h2 class="five-seventeen">10 Best Coffee Subscription Boxes (UK)</h2>
             </div>
           </div>
         </div>
-        <div class="d-flex mt-4 justify-content-center">
-          <button class="load-more border-0 py-2 px-4 rounded-5 five-seventeen">Load More</button>
+      </div>
+
+
+    </div>
+    <div class="d-flex mt-4 justify-content-center">
+      <button class="load-more border-0 py-2 px-4 rounded-5 five-seventeen">Load More</button>
+    </div>
+  </section>
+
+
+  <section class="mb-5">
+    <div class="container">
+      <div class="pt-5 mb-4">
+
+        <div class="d-flex position-relative">
+          <h1 class="seven-fourty d-flex mb-0">Buying <span class="ms-2 five-fourty">Guides</span> </h1> <img
+            class="title-frame-secondary position-absolute" src="./assets/landing-page/Frame.svg" alt="">
+          <div class="bottom-line ms-3 mb-3"></div>
         </div>
-     </section>
-       
-     <section class="pt-5 mb-4">
-      <div class="container p-0">
-       <div class="d-flex position-relative"><h1 class="seven-fourty d-flex mb-0">Buying <span class="ms-2 five-fourty">Guides</span> </h1> <img class="title-frame-secondary position-absolute" src="./assets/landing-page/Frame.svg" alt=""> <div class="bottom-line ms-3 mb-3"></div></div>
         <p class="mt-2 four-eighteen">Get expert advice on your next purchase:</p>
       </div>
-     </section>
-       
-     <section class="mb-5">
-      <div class="container p-0 d-flex justify-content-between flex-wrap">
-         
-        <div class="guide-card guide-shodow p-3 rounded-4">
-          <img class="rounded-4" src="./assets/landing-page/2149153258 1.svg" alt="">
-          <div class="card-body mt-5 mb-5">
-            <div class="title d-flex justify-content-between">
-              <h2 class="six-twentytwo col-9">22 Best Travel Accessories For Men</h2>
-              <img class="icon" src="./assets/landing-page/Icon wrap.svg" alt="">
-            </div>
-            <div class="text">
-              <p class="four-fifteen mt-1 color-octa">Click arrow for more details</p>
-            </div>
-          </div>
-        </div>
-        <div class="guide-card guide-shodow p-3 rounded-4">
-          <img class="rounded-4" src="./assets/landing-page/2149153258 1.svg" alt="">
-          <div class="card-body mt-5 mb-5">
-            <div class="title d-flex justify-content-between">
-              <h2 class="six-twentytwo col-9">22 Best Travel Accessories For Men</h2>
-              <img class="icon" src="./assets/landing-page/Icon wrap.svg" alt="">
-            </div>
-            <div class="text">
-              <p class="four-fifteen mt-1 color-octa">Click arrow for more details</p>
-            </div>
-          </div>
-        </div>
-        <div class="guide-card guide-shodow p-3 rounded-4">
-          <img class="rounded-4" src="./assets/landing-page/2149153258 1.svg" alt="">
-          <div class="card-body mt-5 mb-5">
-            <div class="title d-flex justify-content-between">
-              <h2 class="six-twentytwo col-9">22 Best Travel Accessories For Men</h2>
-              <img class="icon" src="./assets/landing-page/Icon wrap.svg" alt="">
-            </div>
-            <div class="text">
-              <p class="four-fifteen mt-1 color-octa">Click arrow for more details</p>
-            </div>
-          </div>
-        </div>
 
-      </div>
-      <div class="d-flex mt-5 justify-content-center">
-        <button class="load-more border-0 py-2 px-4 rounded-5 five-seventeen">Load More</button>
-      </div>
-     </section>
+      <div class="row">
+        <div class="col-sm-12 col-lg-4">
 
-     <section class="mb-5 pb-4 position-relative">
-      <div class="container p-0">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-          <div class="carousel-inner blur-slider bg-info">
-            <div class="carousel-item blur-slide-one blur-slide active pe-5">
-             <div class="d-flex flex-column justify-content-center align-items-end pe-4 h-100">
+          <div class="guide-card guide-shodow p-3 rounded-4">
+            <img class="rounded-4" src="./assets/landing-page/2149153258 1.svg" alt="">
+            <div class="card-body mt-5 mb-5">
+              <div class="title d-flex justify-content-between">
+                <h2 class="six-twentytwo col-9">22 Best Travel Accessories For Men</h2>
+                <img class="icon" src="./assets/landing-page/Icon wrap.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="four-fifteen mt-1 color-octa">Click arrow for more details</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <div class="guide-card guide-shodow p-3 rounded-4">
+            <img class="rounded-4" src="./assets/landing-page/2149153258 1.svg" alt="">
+            <div class="card-body mt-5 mb-5">
+              <div class="title d-flex justify-content-between">
+                <h2 class="six-twentytwo col-9">22 Best Travel Accessories For Men</h2>
+                <img class="icon" src="./assets/landing-page/Icon wrap.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="four-fifteen mt-1 color-octa">Click arrow for more details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <div class="guide-card guide-shodow p-3 rounded-4">
+            <img class="rounded-4" src="./assets/landing-page/2149153258 1.svg" alt="">
+            <div class="card-body mt-5 mb-5">
+              <div class="title d-flex justify-content-between">
+                <h2 class="six-twentytwo col-9">22 Best Travel Accessories For Men</h2>
+                <img class="icon" src="./assets/landing-page/Icon wrap.svg" alt="">
+              </div>
+              <div class="text">
+                <p class="four-fifteen mt-1 color-octa">Click arrow for more details</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="d-flex mt-5 justify-content-center">
+      <button class="load-more border-0 py-2 px-4 rounded-5 five-seventeen">Load More</button>
+    </div>
+  </section>
+
+  <section class="mb-5 pb-4 position-relative">
+    <div class="container">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner blur-slider bg-info">
+          <div class="carousel-item blur-slide-one blur-slide active pe-5">
+            <div class="d-flex flex-column justify-content-center align-items-end pe-4 h-100">
               <h1 class="seven-sixty color-penta">New In UAE</h1>
               <p class="five-seventeen color-penta">Check Out Our Travel Guide Fo UAE</p>
-              <button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Explore more</button>
-             </div> 
-              <!-- <img src="./assets/landing-page/2148708051.svg" class="d-block blur-img w-100" alt="..."> -->
+              <button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Explore
+                more</button>
             </div>
-            <div class="carousel-item blur-slide blur-slide-two">
-              <!-- <img src="./assets/landing-page/2149153258 1.svg" class="d-block blur-img w-100" alt="..."> -->
-            </div>
-            <div class="carousel-item blur-slide blur-slide-three">
-              <!-- <img src="./assets/landing-page/2150698891 1.svg" class="d-block blur-img w-100" alt="..."> -->
-            </div>
+            <!-- <img src="./assets/landing-page/2148708051.svg" class="d-block blur-img w-100" alt="..."> -->
           </div>
-          <button class="carousel-control-prev position-absolute floating-icon-left" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="fas fa-chevron-left" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next position-absolute floating-icon-right" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="fas fa-chevron-right" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item blur-slide blur-slide-two">
+            <!-- <img src="./assets/landing-page/2149153258 1.svg" class="d-block blur-img w-100" alt="..."> -->
+          </div>
+          <div class="carousel-item blur-slide blur-slide-three">
+            <!-- <img src="./assets/landing-page/2150698891 1.svg" class="d-block blur-img w-100" alt="..."> -->
+          </div>
         </div>
+        <button class="carousel-control-prev position-absolute floating-icon-left" type="button"
+          data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="fas fa-chevron-left" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next position-absolute floating-icon-right" type="button"
+          data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="fas fa-chevron-right" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-     </section>
+    </div>
+  </section>
 
-     <section>
-      <div class="container p-0">
-       <div class="d-flex position-relative"><h1 class="seven-fourty d-flex mb-0">Popular <span class="ms-2 five-fourty">Stores</span> </h1> <img class="title-frame-secondary position-absolute" src="./assets/landing-page/Frame.svg" alt=""> <div class="bottom-line ms-3 mb-3"></div></div>
+
+
+  <section class="carouseil-slider mt-4 mb-4 spacer">
+    <div class="container">
+      <div class="">
+        <div class="d-flex position-relative">
+          <h1 class="seven-fourty d-flex mb-0">Popular <span class="ms-2 five-fourty">Stores</span> </h1> <img
+            class="title-frame-secondary position-absolute" src="./assets/landing-page/Frame.svg" alt="">
+          <div class="bottom-line ms-3 mb-3"></div>
+        </div>
         <p class="mt-2 four-eighteen">Enjoy the latest deals and exclusive coupons for your favorite Stores.</p>
       </div>
-     </section>
-
-     <section class="carouseil-slider mt-4 mb-4 spacer">
-      <div class="container p-0">
       <div class="row">
         <carouseil class="pt-0">
-          <img class="logo" src="/assets/landing-page/Frame 427319071.svg"/>
-              <img class="logo" src="/assets/landing-page/Frame 427319072.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319073.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319074.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319071.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319072.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319073.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319074.svg" />
           <!--<img class="logo" src="">-->
-        
-              <!--DOUBLE-->
-          <img class="logo" src="/assets/landing-page/Frame 427319075.svg"/> 
-              <img class="logo" src="/assets/landing-page/Frame 427319076.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319077.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319078.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319079.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319080.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319081.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319082.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319083.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319084.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319085.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319086.svg" />
-              <img class="logo" src="/assets/landing-page/Frame 427319087.svg" />
-          </carouseil>
-      </div>      
-      </div>
-     </section>
-     
-     <section class="mb-5 pb-5">
-      <div class="container d-flex rounded-5 subscribe-bg justify-content-center p-0 py-5">
-       <div class="d-flex subscribe w-100 flex-column px-5 mb-5 mt-5 gap-5 align-items-center justify-content-between">
-        <div class="text mx-5 d-flex flex-column align-items-center">
-          <h1 class="seven-fourty">Want exclusive deals delivered to your inbox?</h1>
-          <p class="four-fifteen">Sign up & get early access to the best discounts!</p>
-        </div>
-        <div class="d-flex mt-4 flex-wrap gap-3">
-          <input class="input four-fifteen rounded-5 border-0 py-2 px-4" type="text" placeholder="enter your email">
-          <button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Explore more</button>
-        </div>
-       </div>
-      </div>
-     </section>
 
-     <footer class="footer pt-5">
-      <div class="container p-0">
+          <!--DOUBLE-->
+          <img class="logo" src="/assets/landing-page/Frame 427319075.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319076.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319077.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319078.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319079.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319080.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319081.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319082.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319083.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319084.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319085.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319086.svg" />
+          <img class="logo" src="/assets/landing-page/Frame 427319087.svg" />
+        </carouseil>
+      </div>
+    </div>
+  </section>
+
+  <section class="mb-5 mt-4 pb-5">
+    <div class="container d-flex rounded-5 subscribe-bg justify-content-center p-0 py-5">
+     <div class="d-flex subscribe w-100 flex-column px-5 mb-5 mt-5 gap-5 align-items-center justify-content-between">
+      <div class="text mx-1 d-flex  flex-column align-items-center">
+        <h1 class="seven-fourty">Want exclusive deals delivered to your inbox?</h1>
+        <p class="four-fifteen">Sign up & get early access to the best discounts!</p>
+      </div>
+      <div class="d-flex mt-4 gap-3 flex-wrap">
+        <input class="input four-fifteen rounded-5 border-0 py-2 px-4" type="text" placeholder="enter your email">
+        <button class="six-fifteen color-hexa border-0 py-2 px-4 graident-background-btn rounded-5">Explore more</button>
+      </div>
+     </div>
+    </div>
+   </section>
+
+  <footer class="footer pt-5">
+    <div class="container">
       <div class="row">
         <div class="col-lg-4 d-flex flex-column justify-content-between col-m-4 col-sm-12">
           <img class="footer-logo mb-3" src="./assets/landing-page/image_(5)[1] 1.svg" alt="">
-          <p class="four-thirteen">"Saving Says is your ultimate destination for exclusive discounts, promo codes, and money-saving guides. We help shoppers find the best deals on top brands and essential products."</p>
+          <p class="four-thirteen">"Saving Says is your ultimate destination for exclusive discounts, promo codes, and
+            money-saving guides. We help shoppers find the best deals on top brands and essential products."</p>
           <div class="d-flex mt-1 mb-3">
             <img class="me-4" src="./assets/landing-page/Facebook.svg" alt="">
             <img class="me-4" src="./assets/landing-page/Instagram.svg" alt="">
@@ -486,107 +547,110 @@
             <img class="me-4" src="./assets/landing-page/YouTube.svg" alt="">
             <img class="me-4" src="./assets/landing-page/TikTok.svg" alt="">
             <img class="me-4" src="./assets/landing-page/Pinterest.svg" alt="">
-          </div> 
+          </div>
         </div>
         <div class="col-lg-2 col-m-2 col-sm-6">
-        <h2 class="six-fifteen mb-3">Discount Guides</h2>
-        <ul class="p-0 list-style-none">
+          <h2 class="six-fifteen mb-3">Discount Guides</h2>
+          <ul class="p-0 list-style-none">
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Student</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Student</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Teacher</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Teacher</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Military</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Military</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Senior</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Senior</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Healthcare</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Healthcare</span>
             </li>
-        </ul>
+          </ul>
         </div>
         <div class="col-lg-2 col-m-2 col-sm-6">
-        <h2 class="six-fifteen mb-3">Quick Links</h2>
-        <ul class="p-0 list-style-none">
+          <h2 class="six-fifteen mb-3">Quick Links</h2>
+          <ul class="p-0 list-style-none">
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">About Us</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">About Us</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Careers</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Careers</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Media Kit</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Media Kit</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Contact Us</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Contact Us</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">FAQs</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">FAQs</span>
             </li>
-        </ul>
+          </ul>
         </div>
         <div class="col-lg-2 col-m-2 col-sm-6 px-0">
-        <h2 class="six-fifteen mb-3">Coupon & Savings</h2>
-        <ul class="p-0 list-style-none">
+          <h2 class="six-fifteen mb-3">Coupon & Savings</h2>
+          <ul class="p-0 list-style-none">
             <li class="mb-2 d-flex align-items-center">
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Submit Coupons</span>
+            </li>
+            <li class="mb-2 d-flex align-items-center">
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Coupon Categories</span>
+            </li>
+            <li class="mb-2 d-flex align-items-center">
+              <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
                 <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Submit Coupons</span>
+                <span class="four-fifteen">All Stores</span>
+              </a>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Coupon Categories</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Get Paid to Write</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <a class="text-decoration-none color-primary d-flex align-items-center" href="./discount.html">
-                  <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">All Stores</span>  
-                </a>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Community Guidelines</span>
             </li>
-            <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Get Paid to Write</span>
-            </li>
-            <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Community Guidelines</span>
-            </li>
-        </ul>
+          </ul>
         </div>
         <div class="col-lg-2 col-m-2 col-sm-6 px-0">
-        <h2 class="six-fifteen mb-3">Legal & Policies</h2>
-        <ul class="p-0 list-style-none">
+          <h2 class="six-fifteen mb-3">Legal & Policies</h2>
+          <ul class="p-0 list-style-none">
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Privacy Policy</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Privacy Policy</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Terms & Conditions</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Terms & Conditions</span>
             </li>
             <li class="mb-2 d-flex align-items-center">
-                <i class="fas me-2 fa-chevron-right"></i>
-                <span class="four-fifteen">Sitemap</span>
+              <i class="fas me-2 fa-chevron-right"></i>
+              <span class="four-fifteen">Sitemap</span>
             </li>
-        </ul>
+          </ul>
         </div>
       </div>
-      </div>
-     </footer>
+    </div>
+  </footer>
 
-    <script src="slider.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+  <script src="slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
