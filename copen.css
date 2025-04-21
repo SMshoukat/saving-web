@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Purple+Purse&display=swap" );
+.form-container{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+}
+.form-container h2 {
+    font-size: 28px;
+    color: #2D4A65;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.form-control {
+    font-size: 14px;
+}
+.form-check-label {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    /* width: 100% !important;     */
+}
+.btn-primary {
+    background-color: #1a73e8;
+    border: none;
+    font-size: 14px;
+}
+.btn-primary:hover {
+    background-color: #155ab6;
+}
+.icon {
+    position: relative;
+}
+.icon .fa-calendar-alt {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+.form-group{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+
+}
